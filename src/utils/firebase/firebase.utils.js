@@ -1,10 +1,10 @@
-import { initializeApp } from "firebase/app";
-import { API_KEY } from '../../target/target'
-import { AUTH_DOMAIN } from '../../target/target'
-import { PROJECT_ID } from '../../target/target'
-import { STORAGE_BUCKET } from '../../target/target'
-import { MESSAGING_SENDER_ID } from '../../target/target'
-import { APP_ID } from '../../target/target'
+import { initializeApp } from 'firebase/app'
+import { API_KEY } from '../../target'
+import { AUTH_DOMAIN } from '../../target'
+import { PROJECT_ID } from '../../target'
+import { STORAGE_BUCKET } from '../../target'
+import { MESSAGING_SENDER_ID } from '../../target'
+import { APP_ID } from '../../target'
 import { 
   getAuth, 
   signInWithRedirect, 

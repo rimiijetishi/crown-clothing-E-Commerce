@@ -1,0 +1,17 @@
+.sign-up-container {
+  display: flex;
+  flex-direction: column;
+  width:380px;
+
+  h2 {
+      margin: 10px 0;
+  }
+}
+
+
+@media only screen and (max-width: 759px) {
+  .sign-up-container{
+      margin-top: 100px;
+      margin-bottom: 30px;
+  }
+}
