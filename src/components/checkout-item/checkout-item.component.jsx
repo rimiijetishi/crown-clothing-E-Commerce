@@ -11,7 +11,7 @@ import {
 } from './checkout-item.style';
 
 const CheckoutItem = ({cartItem}) => {
-  const {id, name, price, imageUrl, quantity} = cartItem;
+  const { name, price, imageUrl, quantity} = cartItem;
   const {addItemToCart, removeItemFromCart, clearItemFromCart,} = useContext(CartContext);
   
   const clearItemHandler = () => clearItemFromCart(cartItem);
