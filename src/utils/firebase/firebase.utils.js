@@ -28,12 +28,12 @@ import {
 } from 'firebase/firestore'
 
 const firebaseConfig = {
-  apiKey: API_KEY,
-  authDomain: AUTH_DOMAIN,
-  projectId: PROJECT_ID,
-  storageBucket: STORAGE_BUCKET,
-  messagingSenderId: MESSAGING_SENDER_ID,
-  appId: APP_ID
+  apiKey: "AIzaSyBmWAM6-Y3mBALBhL-_VUOPcM_hUbVu1do",
+  authDomain: "crwn-clothing-10320.firebaseapp.com",
+  projectId: "crwn-clothing-10320",
+  storageBucket: "crwn-clothing-10320.appspot.com",
+  messagingSenderId: "140120565714",
+  appId: "1:140120565714:web:bb36cf455998b0732b8a0b"
 };
 
 const app = initializeApp(firebaseConfig);
